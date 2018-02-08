@@ -1,4 +1,4 @@
-//Author:
+//Author:Joseluis Zamora
 #include<iostream>
 
 using namespace std;
@@ -6,8 +6,6 @@ using namespace std;
 int main()
 {
   char Character;
-  char Character1;
-  char Character2;
   cout<<"What character do you want to know about?\n";
   cin >> Character;
   //when user's entry is between A-Z...
