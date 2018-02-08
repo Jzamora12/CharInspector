@@ -6,30 +6,31 @@ using namespace std;
 int main()
 {
   char Character;
+  char Character1;
+  char Character2;
   cout<<"What character do you want to know about?\n";
   cin >> Character;
   //when user's entry is between A-Z...
-  if ( Character>=65, Character<=90 )
+  if ( Character >= 65 && Character <= 90 )
   {
   cout << "" << Character;
   cout<<" is an upper case letter!\n";
   }
   //when user's entry is between a-z...
-  else if ( Character>=97, Character<=122) 
+  else if ( Character >= 97 && Character <= 122) 
   {
-  cout << "" << Character;
+  Character=Character1; 
+  cout << "" << Character1;
   cout<<" is a lower case letter!\n";
   }
   //in all other cases...
-  else if ( Character>=0, Character<=64, Character>=91, Character<=96, Character>=123, Character<=255 ) 
+  else
   {
   cout << "" << Character;
   cout<<"?! Pssh. What are you talking about?\n";
   }
   //no matter what they enter...
-  if ( Character>=65, Character<=122 )
-  {
-  cout<<"The ASCII value is: " << int(Character) ; 
-  }
+  cout<<"The ASCII value is: " << int(Character) <<endl;
+
   return 0;
 }
