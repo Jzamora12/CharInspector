@@ -21,7 +21,7 @@ int main()
   cout<<" is a lower case letter!\n";
   }
   //in all other cases...
-  else 
+  else if ( Character>=0, Character<=64, Character>=91, Character<=96, Character>=123, Character<=255 ) 
   {
   cout << "" << Character;
   cout<<"?! Pssh. What are you talking about?\n";
